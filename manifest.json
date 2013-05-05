@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Mostra fotos",
+  "version": "0.1",
+  "description": "Extensao pra ver as imagens interessantes feito pro DevinCachu",
+  "icons": {
+		"48": "mostrafoto.png",
+		"128": "mostrafoto.png"
+  },
+  "browser_action": {
+	"default_title": "Mostra Fotos",
+    "default_icon": "mostrafoto.png",
+	"default_popup": "popup.html"
+  },
+  "permissions": [
+	"contextMenus",
+	"tabs", "http://*/*", "https://*/*"
+  ]
+}
